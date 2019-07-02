@@ -19,5 +19,7 @@ public class Test {
         BigDecimal quote = cashier.quote(BigDecimal.valueOf(20));
         System.out.println(quote);
 
+//        思考：这个所谓的策略模式跟普通的bean的注入没啥区别啊
+
     }
 }
