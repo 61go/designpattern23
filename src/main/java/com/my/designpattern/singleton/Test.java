@@ -1,5 +1,12 @@
 package com.my.designpattern.singleton;
-
+/**
+ * @Author huruipeng
+ * @Description 参考 https://juejin.im/post/5cbd2e2de51d456e803516b9
+ * @Date  2019/7/2 17:18
+ * @Param
+ * @creator huruipeng
+ * @return
+ **/
 public class Test {
     public static void main(String[] args) {
         //验证饿汉式
