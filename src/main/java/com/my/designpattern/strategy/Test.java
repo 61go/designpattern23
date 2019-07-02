@@ -1,0 +1,23 @@
+package com.my.designpattern.strategy;
+
+import com.my.designpattern.strategy.service.Buyer;
+import com.my.designpattern.strategy.service.impl.VipBuyer;
+
+import java.math.BigDecimal;
+/**
+ * @Author huruipeng
+ * @Description 测试类，本质上讲策略模式好像没啥意思。。。。。。。
+ * @Date  2019/7/2 16:06
+ * @Param
+ * @creator huruipeng
+ * @return
+ **/
+public class Test {
+    public static void main(String[] args) {
+        Buyer buyer = new VipBuyer();
+        Cashier cashier = new Cashier(buyer);
+        BigDecimal quote = cashier.quote(BigDecimal.valueOf(20));
+        System.out.println(quote);
+
+    }
+}

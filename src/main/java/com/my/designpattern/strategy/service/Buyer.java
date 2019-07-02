@@ -1,5 +1,7 @@
 package com.my.designpattern.strategy.service;
 
+import java.math.BigDecimal;
+
 /**
  * @ClassName Buyer
  * @Description TODO
@@ -9,5 +11,6 @@ package com.my.designpattern.strategy.service;
  * @Copyright: Copyright (c) 2018
  **/
 
-public class Buyer {
+public interface Buyer {
+    BigDecimal calPrice(BigDecimal orderPrice);
 }
