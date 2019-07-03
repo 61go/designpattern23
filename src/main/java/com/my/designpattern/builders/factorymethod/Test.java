@@ -13,6 +13,9 @@ import com.my.designpattern.builders.factorymethod.product.Animal;
  * @return
  **/
 public class Test {
+    private String name;
+    private int age;
+
     public static void main(String[] args) {
         AnimalFarm af = new CowFarm();
         Animal animal = af.newAnimal();
