@@ -1,4 +1,4 @@
-package com.my.designpattern.structures.proxy;
+package com.my.designpattern.structures.proxy.jdkproxy;
 //前面分析了代理模式的结构与特点，现在来分析以下的应用场景。
 //
 //        远程代理，这种方式通常是为了隐藏目标对象存在于不同地址空间的事实，方便客户端访问。例如，用户申请某些网盘空间时，会在用户的文件系统中建立一个虚拟的硬盘，用户访问虚拟硬盘时实际访问的是网盘空间。

@@ -1,4 +1,4 @@
-package com.my.designpattern.structures.proxy;
+package com.my.designpattern.structures.proxy.staticproxy;
 
 /**
  * @Author huruipeng
@@ -15,11 +15,6 @@ public class WySpecialtyProxy implements Specialty {
         this.wySpecialty = specialty;
     }
 
-    public static void main(String[] args) {
-        WySpecialty wySpecialty = new WySpecialty();
-        Specialty sp = new WySpecialtyProxy(wySpecialty);
-        sp.show();
-    }
 
     @Override
     public void show() {

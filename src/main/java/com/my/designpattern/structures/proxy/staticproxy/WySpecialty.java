@@ -1,4 +1,4 @@
-package com.my.designpattern.structures.proxy;
+package com.my.designpattern.structures.proxy.staticproxy;
 
 public class WySpecialty implements Specialty {
 
