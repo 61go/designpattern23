@@ -1,4 +1,4 @@
-package com.my.designpattern.singleton;
+package com.my.designpattern.builders.singleton;
 /**
  * @Author huruipeng
  * @Description //利用静态内部类(静态内部类的初始化是线程安全的）

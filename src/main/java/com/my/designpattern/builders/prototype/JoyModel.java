@@ -1,4 +1,4 @@
-package com.my.designpattern.prototype;
+package com.my.designpattern.builders.prototype;
 
 /**
  * @Author huruipeng 构建型
@@ -82,7 +82,7 @@ public class JoyModel implements Cloneable {
      * @see Cloneable
      */
     @Override
-    protected Object clone() throws CloneNotSupportedException {
+    public Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
 

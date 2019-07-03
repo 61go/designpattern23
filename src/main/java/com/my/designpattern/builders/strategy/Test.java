@@ -1,7 +1,7 @@
-package com.my.designpattern.strategy;
+package com.my.designpattern.builders.strategy;
 
-import com.my.designpattern.strategy.service.Buyer;
-import com.my.designpattern.strategy.service.impl.VipBuyer;
+import com.my.designpattern.builders.strategy.service.Buyer;
+import com.my.designpattern.builders.strategy.service.impl.VipBuyer;
 
 import java.math.BigDecimal;
 /**

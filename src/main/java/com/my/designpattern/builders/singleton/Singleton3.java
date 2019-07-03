@@ -1,4 +1,4 @@
-package com.my.designpattern.singleton;
+package com.my.designpattern.builders.singleton;
 
 public enum Singleton3 {
     INSANCE("love"),
