@@ -1,4 +1,8 @@
 package com.my.designpattern.singleton;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 /**
  * @Author huruipeng
  * @Description 参考 https://juejin.im/post/5cbd2e2de51d456e803516b9
@@ -23,5 +27,9 @@ public class Test {
        //验证枚举式 这个可以弥补反序列化的漏洞，所以强烈建议使用枚举
         Singleton3 s3 = Singleton3.INSANCE;
         s3.test();
+        LocalDateTime now = LocalDateTime.now();
+        DateTimeFormatter fo = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        String format = now.format(fo);
+        System.out.println(format);
     }
 }
