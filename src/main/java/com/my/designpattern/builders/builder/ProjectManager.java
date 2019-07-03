@@ -2,7 +2,7 @@ package com.my.designpattern.builders.builder;
 
 /**
  * @Author huruipeng
- * @Description 一定要有一个经理类，来组织建造工程
+ * @Description 一定要有一个经理类，来组织建造工程的材料，有意思
  * @Date 2019/7/3 13:57
  * @Param
  * @creator huruipeng
