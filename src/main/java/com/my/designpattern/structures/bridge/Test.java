@@ -3,6 +3,7 @@ package com.my.designpattern.structures.bridge;
 /**
  * @program: Test
  * @description: 上传桥接模式
+ * 桥接模式比较难懂，需要一点智慧
  * @author: Caffeine61
  * @create: 2019-07-15 00:28
  **/
