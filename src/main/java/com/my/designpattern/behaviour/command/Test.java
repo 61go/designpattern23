@@ -1,7 +1,7 @@
 package com.my.designpattern.behaviour.command;
 
 /**
- * @program: Test
+ * @program: Calculator
  * @description:最经典模式--命令模式 这个一定要吃透，因为你一定会有用到的时候，我见过
  *
  * 应用方式

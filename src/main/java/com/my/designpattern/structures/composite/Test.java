@@ -1,7 +1,7 @@
 package com.my.designpattern.structures.composite;
 
 /**
- * @program: Test
+ * @program: Calculator
  * @description: 复合模式 描述的是一个层级结构
  * @author: Caffeine61
  * @create: 2019-07-15 01:35

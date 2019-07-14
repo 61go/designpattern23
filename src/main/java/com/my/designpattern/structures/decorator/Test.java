@@ -1,7 +1,7 @@
 package com.my.designpattern.structures.decorator;
 
 /**
- * @program: Test
+ * @program: Calculator
  * @description: 装饰器模式
  * @author: Caffeine61
  * @create: 2019-07-15 01:02

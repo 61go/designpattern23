@@ -1,7 +1,7 @@
 package com.my.designpattern.structures.flyweight;
 
 /**
- * @program: Test
+ * @program: Calculator
  * @description: 享元模式很有意思呢，可以节省好多内存呢Q，而且避免创建速度快
  * @author: Caffeine61
  * @create: 2019-07-15 01:20
