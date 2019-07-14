@@ -1,6 +1,6 @@
-package com.my.designpattern.builders.strategy;
+package com.my.designpattern.behaviour.strategy;
 
-import com.my.designpattern.builders.strategy.service.Buyer;
+import com.my.designpattern.behaviour.strategy.service.Buyer;
 
 import java.math.BigDecimal;
 
